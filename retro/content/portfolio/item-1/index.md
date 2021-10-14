@@ -1,6 +1,6 @@
 ---
 id: 1
 image: './image.jpg'
-title: "Full Stack Development"
-category: "Full Stack"
+title: "it's a vibe"
+category: "Vibe"
 ---

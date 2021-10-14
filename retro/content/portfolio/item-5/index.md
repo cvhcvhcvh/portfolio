@@ -1,6 +1,6 @@
 ---
 id: 5
 image: './image.jpg'
-title: "JS Development"
-category: "UI/UX Design"
+title: "and we'll all float on okay"
+category: "Float"
 ---

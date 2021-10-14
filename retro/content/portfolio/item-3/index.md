@@ -1,6 +1,6 @@
 ---
 id: 3
 image: './image.jpg'
-title: "MERN Development"
-category: "MERN"
+title: "fits like a shmedium"
+category: "Shmedium"
 ---
