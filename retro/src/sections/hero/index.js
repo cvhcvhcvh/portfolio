@@ -33,6 +33,7 @@ class Hero extends React.Component {
                     'Developer',
                     'Designer',
                     'Donnie',
+                    'this guy'
                   ],
                   autoStart: true,
                   loop: true,
