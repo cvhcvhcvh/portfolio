@@ -1,6 +1,6 @@
 ---
 id: 6
 image: './image.jpg'
-title: "UX Development for Company"
+title: "JS Project"
 category: "UI/UX Design"
 ---
