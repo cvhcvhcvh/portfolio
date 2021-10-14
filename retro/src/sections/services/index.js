@@ -3,7 +3,7 @@ import { Row, Col, Container } from 'react-bootstrap'
 import BaffleText from 'components/baffle-text'
 import AnimationContainer from 'components/animation-container'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact, faAngular, faAws } from '@fortawesome/free-brands-svg-icons'
+import { faReact, faAws, faDiaspora} from '@fortawesome/free-brands-svg-icons'
 import {
   faPencilRuler,
   faServer,
@@ -12,6 +12,7 @@ import {
   faPizzaSlice,
   faQuoteRight,
   faCode,
+  faDatabase,
 } from '@fortawesome/free-solid-svg-icons'
 import Counter from 'components/counter'
 import ThemeContext from '../../context'
@@ -90,28 +91,28 @@ class Services extends React.Component {
               <div className="icon">
                 <FontAwesomeIcon icon={faReact} />
               </div>
-              <h4>Front-end React</h4>
+              <h4>React</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
-                In et sem libero. Integer pretium, tellus eu pellentesque
-                tristique, ex libero maximus elit, mollis tristique urna eros
-                non tellus
+              JSX
+              <br/>
+              Components
+              <br/>
+              Unidirectional data flow and Flux 
               </p>
             </AnimationContainer>
           </Col>
           <Col md={4} className="service border-side">
             <AnimationContainer delay={400} animation="fadeInDown fast">
               <div className="icon">
-                <FontAwesomeIcon icon={faAngular} />
+                <FontAwesomeIcon icon={faDatabase} />
               </div>
-              <h4>Angular Web App</h4>
+              <h4>PostgreSQL</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
-                In et sem libero. Integer pretium, tellus eu pellentesque
-                tristique, ex libero maximus elit, mollis tristique urna eros
-                non tellus
+                Open source relational database 
+                <br/>
+                Relational and non-relational querying
+                <br/>
+                Data warehouse
               </p>
             </AnimationContainer>
           </Col>
@@ -122,11 +123,9 @@ class Services extends React.Component {
               </div>
               <h4>AWS Management</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
-                In et sem libero. Integer pretium, tellus eu pellentesque
-                tristique, ex libero maximus elit, mollis tristique urna eros
-                non tellus
+                The world's most comprehensive and broadly adopted cloud platform
+                <br/>
+                Content delivery
               </p>
             </AnimationContainer>
           </Col>
@@ -150,7 +149,7 @@ class Services extends React.Component {
               <div className="icon">
                 <FontAwesomeIcon icon={faServer} className="solid" />
               </div>
-              <h4>Linux Server Management</h4>
+              <h4>Mongo DB</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
@@ -163,9 +162,9 @@ class Services extends React.Component {
           <Col md={4} className="service">
             <AnimationContainer delay={1200} animation="fadeInRight fast">
               <div className="icon">
-                <FontAwesomeIcon icon={faRobot} className="solid" />
+                <FontAwesomeIcon icon={faDiaspora} className="solid" />
               </div>
-              <h4>Artifical Intelligence</h4>
+              <h4>Redux</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
