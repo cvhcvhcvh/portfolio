@@ -9,7 +9,7 @@ import {
   faServer,
   faRobot,
   faSmileBeam,
-  faPizzaSlice,
+  faCoffee,
   faQuoteRight,
   faCode,
   faDatabase,
@@ -136,11 +136,9 @@ class Services extends React.Component {
               </div>
               <h4>UI/UX Design</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
-                In et sem libero. Integer pretium, tellus eu pellentesque
-                tristique, ex libero maximus elit, mollis tristique urna eros
-                non tellus
+                Identifying and solving user problems 
+                <br/>
+                Creating intuitive and interactive products  
               </p>
             </AnimationContainer>
           </Col>
@@ -151,11 +149,9 @@ class Services extends React.Component {
               </div>
               <h4>Mongo DB</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
-                In et sem libero. Integer pretium, tellus eu pellentesque
-                tristique, ex libero maximus elit, mollis tristique urna eros
-                non tellus
+                The most popular database for modern apps
+                <br/>
+                Flexible schema approach  
               </p>
             </AnimationContainer>
           </Col>
@@ -166,11 +162,11 @@ class Services extends React.Component {
               </div>
               <h4>Redux</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                dui sem, vulputate vitae dolor sed, sollicitudin pharetra nisi.
-                In et sem libero. Integer pretium, tellus eu pellentesque
-                tristique, ex libero maximus elit, mollis tristique urna eros
-                non tellus
+                Predictable state container 
+                <br/>
+                Most widely used state management tool used with React 
+                <br/>
+                Standalone library that can be used with any UI layer  
               </p>
             </AnimationContainer>
           </Col>
@@ -187,8 +183,8 @@ class Services extends React.Component {
             <AnimationContainer delay={100} animation="fadeIn fast">
               <Counter
                 icon={faSmileBeam}
-                value={100}
-                text="Happy Clients"
+                value={1000}
+                text="Course Hours"
                 symbol="+"
                 duration={3}
               />
@@ -197,9 +193,9 @@ class Services extends React.Component {
           <Col md={3}>
             <AnimationContainer delay={100} animation="fadeIn fast">
               <Counter
-                icon={faPizzaSlice}
-                value={1000}
-                text="Pizzas Ordered"
+                icon={faCoffee}
+                value={10000}
+                text="Coffees Drank"
                 symbol="+"
                 duration={3}
               />
@@ -210,7 +206,7 @@ class Services extends React.Component {
               <Counter
                 icon={faQuoteRight}
                 value={500}
-                text="Reviews"
+                text="Peer Reviews"
                 symbol="+"
                 duration={3}
               />
